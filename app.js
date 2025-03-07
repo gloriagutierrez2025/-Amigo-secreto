@@ -1,4 +1,14 @@
 console.log("ejecutando el sistema");
+function saludar() {
+    let nombre = prompt("¿Cuál es tu nombre?");
+    if (nombre) {
+        alert("¡Hola, vamos a jugar " + nombre + "!");
+    } else {
+        alert("¡Hola, desconocido!");
+    }
+}
+
+saludar();
 let amigo=[];
 function agregarAmigo (){
     let inputAmigo=document.getElementById("amigo");
